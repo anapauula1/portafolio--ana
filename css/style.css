@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*quiero colores pasteles*/
+body{
+    box-sizing: border-box;
+    background-color: rgb(61, 141, 122);
+}
+.titulo__principal{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;  
+    color: 	#FBFFE4;
+    text-align: center;
+}
