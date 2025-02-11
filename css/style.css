@@ -31,7 +31,7 @@ body{
 .contenedor__titulo{
     display: flex;
     justify-content: center;
-    margin: 15% 10%;
+    margin: 10% 10%;
     /* 
     esto significa que
     arriba y abajo = 15% de padding
