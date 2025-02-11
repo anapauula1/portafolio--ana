@@ -25,7 +25,7 @@ body{
 }
 .enlace__nav{
     text-decoration: none;
-    color: var(--color--letras--prinicipal);
+    color: #DC2F02;
     font-family: "Saira", serif;
 }
 .contenedor__titulo{
@@ -52,4 +52,22 @@ body{
     font-style: normal;
     color: var(--color--letras--prinicipal);
     font-size: 1.2em;
+}
+.contenedor__enlace__boton{
+    display: flex;
+    justify-content: center;
+}
+.enlace__boton{
+    text-decoration: none;
+    font-family: var(--letra--titulo);
+    font-size: 2em;
+    color: var(--color--letras--prinicipal);
+    border: 2px solid;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #DC2F02;
+}
+.enlace__boton:hover{
+    background-color: #272727;
 }
