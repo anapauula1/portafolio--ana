@@ -3,8 +3,8 @@
     padding: 0;
 }
 :root{
-    --color--fondo:#B3D8A8;
-    --color--letras--prinicipal:#FBFFE4;
+    --color--fondo: black;
+    --color--letras--prinicipal: white;
     --letra--titulo:"Alfa Slab One", serif;
 }
 /*quiero colores pasteles*/
@@ -12,12 +12,36 @@ body{
     box-sizing: border-box;
     background-color: var(--color--fondo);
 }
+.header{
+    padding: 2%;
+    /* aplicamos padding para que 
+    se separe todo el navegador
+    del texto principal*/
+}
+.navegador{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.enlace__nav{
+    text-decoration: none;
+    color: var(--color--letras--prinicipal);
+    font-family: "Saira", serif;
+}
 .titulo__principal{
     font-family: var(--letra--titulo);
     font-weight: 400;
     font-style: normal;  
     color: var(--color--letras--prinicipal) ;
     text-align: center;
+    font-size: 6.5em;
+}
+.parrafo__subtitulo{
+    font-family: "ABeeZee", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #D62828;
+    font-size: 1.2em;
 }
 .contenedor__titulo{
     display: flex;
@@ -25,7 +49,7 @@ body{
     margin: 15% 10%;
     /* 
     esto significa que
-    arriba y abajo = 10% de padding
+    arriba y abajo = 15% de padding
     derecha y izquierda = 10% padding
     */
 }
