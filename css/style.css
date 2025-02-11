@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root{
-    --color--fondo: black;
+    --color--fondo: #03071e;
     --color--letras--prinicipal: white;
     --letra--titulo:"Alfa Slab One", serif;
 }
@@ -28,6 +28,16 @@ body{
     color: var(--color--letras--prinicipal);
     font-family: "Saira", serif;
 }
+.contenedor__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 15% 10%;
+    /* 
+    esto significa que
+    arriba y abajo = 15% de padding
+    derecha y izquierda = 10% padding
+    */
+}
 .titulo__principal{
     font-family: var(--letra--titulo);
     font-weight: 400;
@@ -40,16 +50,6 @@ body{
     font-family: "ABeeZee", serif;
     font-weight: 500;
     font-style: normal;
-    color: #D62828;
+    color: var(--color--letras--prinicipal);
     font-size: 1.2em;
-}
-.contenedor__titulo{
-    display: flex;
-    justify-content: center;
-    margin: 15% 10%;
-    /* 
-    esto significa que
-    arriba y abajo = 15% de padding
-    derecha y izquierda = 10% padding
-    */
 }
