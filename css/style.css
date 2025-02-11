@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root{
-    --color--fondo:rgb(61, 141, 122);
+    --color--fondo:#B3D8A8;
     --color--letras--prinicipal:#FBFFE4;
     --letra--titulo:"Alfa Slab One", serif;
 }
@@ -18,4 +18,14 @@ body{
     font-style: normal;  
     color: var(--color--letras--prinicipal) ;
     text-align: center;
+}
+.contenedor__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 15% 10%;
+    /* 
+    esto significa que
+    arriba y abajo = 10% de padding
+    derecha y izquierda = 10% padding
+    */
 }
