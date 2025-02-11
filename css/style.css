@@ -2,15 +2,20 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --color--fondo:rgb(61, 141, 122);
+    --color--letras--prinicipal:#FBFFE4;
+    --letra--titulo:"Alfa Slab One", serif;
+}
 /*quiero colores pasteles*/
 body{
     box-sizing: border-box;
-    background-color: rgb(61, 141, 122);
+    background-color: var(--color--fondo);
 }
 .titulo__principal{
-    font-family: "Alfa Slab One", serif;
+    font-family: var(--letra--titulo);
     font-weight: 400;
     font-style: normal;  
-    color: 	#FBFFE4;
+    color: var(--color--letras--prinicipal) ;
     text-align: center;
 }
