@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
 }
+ /* 
+ colores de fondo para ir probando
+  1) azul como frances = #03071e
+  2) rosa clarito = #F7CFD8
+  3) beige = F4F8D3
+  4) azul muy claro = #E6F1F7
+  4) beige = #FAF3E0
+*/
 :root{
-    --color--fondo: #03071e;
-    --color--letras--prinicipal: white;
+    --color--fondo: white;
+    --color--letras--prinicipal: rgb(51, 50, 50);
     --letra--titulo:"Alfa Slab One", serif;
 }
-/*quiero colores pasteles*/
 body{
     box-sizing: border-box;
     background-color: var(--color--fondo);
@@ -25,7 +32,7 @@ body{
 }
 .enlace__nav{
     text-decoration: none;
-    color: #DC2F02;
+    color: #82dfd4;
     font-family: "Saira", serif;
 }
 .contenedor__titulo{
@@ -66,8 +73,8 @@ body{
     width: 20%;
     text-align: center;
     border-radius: 20px;
-    border-color: #DC2F02;
+    border-color: #71BBB2;
 }
 .enlace__boton:hover{
-    background-color: #272727;
+    background-color: #383737;
 }
